@@ -1,0 +1,22 @@
+.lang-icon-container {
+	display: flex;
+	align-items: center;
+	.lang-img {
+		height: 40px;
+		width: 40px;
+	}
+	.lang-icon {
+		font-size: 40px;
+	}
+	.lang-text {
+		margin: 0px 10px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.lang-icon-container {
+		.lang-text {
+			font-size: 14px;
+		}
+	}
+}

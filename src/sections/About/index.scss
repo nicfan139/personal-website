@@ -1,0 +1,45 @@
+.about {
+	z-index: 10;
+	position: relative;
+	.about-details {
+		display: flex;
+		align-items: center;
+		.about-img {
+			height: 250px;
+			width: 250px;
+			border-radius: 10px;
+			box-shadow: 0px 2px 30px 0px rgba(0,0,0,0.3);
+		}
+		.about-text {
+			margin: 0px 0px 0px 30px;
+		}
+	}
+}
+
+/* Tablet view */
+@media screen and (max-width: 960px) {
+	.about {
+		.about-details {
+			.about-img {
+				height: 200px;
+				width: 200px;
+			}
+			.about-text {
+				margin: 0px 0px 0px 15px;
+			}			
+		}
+	}
+}
+
+/* Mobile view */
+@media screen and (max-width: 600px) {
+	.about {
+		.about-details {
+			flex-direction: column;
+			.about-text {
+				font-size: 14px;
+				text-align: center;
+			}
+		}
+	}
+}

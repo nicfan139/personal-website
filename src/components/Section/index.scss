@@ -1,0 +1,29 @@
+.section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 75px 100px;
+	.section-title {
+		margin: 0px 0px 15px;
+		font-size: 32px;
+	}
+}
+
+/* Tablet view */
+@media screen and (max-width: 960px) {
+	.section {
+		padding: 50px;
+		.section-title {
+			text-align: center;
+		}
+	}
+}
+
+/* Mobile view */
+@media screen and (max-width: 600px) {
+  .section {
+    align-items: center;
+    padding: 50px 20px;
+  }
+}

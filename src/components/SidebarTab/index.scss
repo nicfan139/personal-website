@@ -1,0 +1,25 @@
+@import "../../scss/variables.scss";
+
+.sidebar-tab {
+	width: 100%;
+  padding: 15px 0px;
+  border-bottom: 4px solid $DARKBLUE;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s;
+	&:hover {
+		cursor: pointer;
+		font-weight: bold;
+		border-bottom: 4px solid rgba(0,0,0,0);
+		background-color: rgba(0,0,0,0.1);
+	}
+}
+
+.tab-active {
+	border-bottom: 4px solid grey;
+	color: black;
+	background-color: white;
+}

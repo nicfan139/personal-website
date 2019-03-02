@@ -1,0 +1,86 @@
+@font-face { font-family: Lato; src: url('../assets/fonts/Lato-Regular.ttf'); } 
+
+html, body {
+  margin: 0px;
+  font-family: Lato, sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.content::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  background-color: #F5F5F5;
+}
+
+.content::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.content::-moz-scrollbar-track {
+  -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+  background-color: #F5F5F5;
+}
+
+.content::-moz-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.content::-moz-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.content {
+  height: 100vh;
+  width: calc(100vw - 200px);
+  margin-left: 200px;
+  overflow-y: scroll;
+}
+/* Tablet view */
+@media screen and (max-width: 992px) {
+  .content {
+    width: 100vw;
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+}
+/* Mobile view */
+@media screen and (max-width: 576px) {
+  .content {
+    align-items: center;
+    margin-top: 0px;
+  }
+}
+
+.main-body {
+  z-index: 1;
+  position: relative;
+}
+
+/* Fade animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

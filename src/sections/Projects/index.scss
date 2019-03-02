@@ -1,0 +1,26 @@
+.projects {
+	.projects-heading {
+		.projects-title {
+			font-size: 32px;
+		}
+		.projects-subtitle {
+			font-style: italic;
+			margin-bottom: 30px;
+		}
+	}
+}
+
+/* Tablet view */
+@media screen and (max-width: 960px) {
+	.projects {		
+		.projects-heading {
+			text-align: center;
+		}
+	}
+}
+
+/* Mobile view */
+@media screen and (max-width: 600px) {
+	.projects {
+	}
+}
