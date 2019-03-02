@@ -4,10 +4,12 @@
     "name": "Nicolas Fan",
     "email": "nic@yap.cx"
   },
+  "homepage": "https://nicfan139.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.2",
+    "gh-pages": "^2.0.1",
     "markdown-to-jsx": "^6.9.0",
     "node-sass": "^4.11.0",
     "react": "^16.6.3",
@@ -16,6 +18,8 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
