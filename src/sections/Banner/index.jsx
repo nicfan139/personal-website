@@ -13,20 +13,11 @@ const Banner = () => {
 					Building websites and webapps for fun.
 				</p>
 				<div className="banner-contact-links">
-					{ /* Email */ }
-					<ContactLink
-						href="mailto:nic@nicolasfan.co"
-						title="Reach out by email!"
-						iconClass="fas fa-envelope"
-						text="nic@yap.cx"
-					/>
-
 					{ /* LinkedIn */ }
 					<ContactLink
 						href="https://www.linkedin.com/in/nicolasfan"
 						title="Connect on LinkedIn!"
 						iconClass="fab fa-linkedin"
-						text="linkedin.com/in/nicolasfan"
 					/>
 
 					{ /* GitHub */ }
@@ -34,7 +25,6 @@ const Banner = () => {
 						href="https://www.github.com/nicfan139"
 						title="View GitHub profile!"
 						iconClass="fab fa-github"
-						text="nicfan139"
 					/>
 
 					{ /* GitLab */ }
@@ -42,7 +32,6 @@ const Banner = () => {
 						href="https://www.gitlab.com/nicfan139"
 						title="View GitLab profile!"
 						iconClass="devicon-gitlab-plain colored"
-						text="@nicfan139"
 					/>
 
 					{ /* CodePen */ }
@@ -50,7 +39,6 @@ const Banner = () => {
 						href="https://codepen.io/nicfan139"
 						title="View code snippets on CodePen!"
 						iconClass="fab fa-codepen"
-						text="@nicfan139"
 					/>
 				</div>
 			</div>
