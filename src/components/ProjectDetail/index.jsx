@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.scss';
 import propTypes from 'prop-types';
+import Fade from 'react-reveal/Fade';
 import Markdown from 'markdown-to-jsx';
 
 class ProjectDetail extends React.Component {
