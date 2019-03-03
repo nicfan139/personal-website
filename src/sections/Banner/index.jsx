@@ -18,7 +18,7 @@ const Banner = () => {
 						href="mailto:nic@nicolasfan.co"
 						title="Reach out by email!"
 						iconClass="fas fa-envelope"
-						text="nic@nicolasfan.co"
+						text="nic@yap.cx"
 					/>
 
 					{ /* LinkedIn */ }
