@@ -1,4 +1,5 @@
 import projectYapWebsiteImg from '../../assets/images/project_yap_website.png';
+import projectCubahaus from '../../assets/images/project_cubahaus.png';
 import projectGamiflexImg from '../../assets/images/project_gamiflex.png';
 import projectMontresorImg from '../../assets/images/project_montresor.png';
 
@@ -11,14 +12,14 @@ export const projectList = [
 		repoUrl: "",
 		backgroundImgUrl: projectYapWebsiteImg
 	},
-	// {
-	// 	name: "Cubahaus.com",
-	// 	tagline: "Unite Great Minds.",
-	// 	desc: "Implemented the front-end design for Cubahaus - a housing service for international students and young professionals looking for accommodation in Montreal.",
-	// 	siteUrl: "https://www.cubahaus.com",
-	// 	repoUrl: "",
-	// 	backgroundImgUrl: ""
-	// },
+	{
+		name: "Cubahaus.com",
+		tagline: "Unite Great Minds.",
+		desc: "Implemented the front-end design for Cubahaus - a housing service for international students and young professionals looking for accommodation in Montreal.",
+		siteUrl: "https://www.cubahaus.com",
+		repoUrl: "",
+		backgroundImgUrl: projectCubahaus
+	},
 	{
 		name: "Gamiflex",
 		tagline: "Ever had trouble deciding your next game?",
@@ -33,6 +34,6 @@ export const projectList = [
 		desc: "5-day team project for 'AirBnB Week' at **Le Wagon Coding Bootcamp** (*batch #125 - Montreal*). We built a marketplace for second-hand stuff.",
 		siteUrl: "http://montresor-72.herokuapp.com",
 		repoUrl: "https://github.com/nicfan139/montresor",
-		backgroundImgUrl: "https://res.cloudinary.com/dqyrzcfez/image/upload/v1547411722/personal_site/project_montresor.png"
+		backgroundImgUrl: projectMontresorImg
 	}
 ]
