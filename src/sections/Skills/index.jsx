@@ -42,6 +42,10 @@ const Skills = () => {
 						langName="JavaScript"
 					/>
 					<LangIcon
+						langIcon="devicon-jquery-plain colored"
+						langName="jQuery"
+					/>
+					<LangIcon
 						langIcon="devicon-react-original colored"
 						langName="React.js"
 					/>
