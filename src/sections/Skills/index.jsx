@@ -41,10 +41,12 @@ const Skills = () => {
 						langIcon="devicon-javascript-plain colored"
 						langName="JavaScript"
 					/>
+					{/*
 					<LangIcon
 						langIcon="devicon-jquery-plain colored"
 						langName="jQuery"
 					/>
+					*/}
 					<LangIcon
 						langIcon="devicon-react-original colored"
 						langName="React.js"
@@ -59,10 +61,12 @@ const Skills = () => {
 						langImgAlt="Gatsby.js logo"
 						langName="Gatsby.js"
 					/>
+					{/*
 					<LangIcon
 						langIcon="devicon-typescript-plain colored"
 						langName="TypeScript"
 					/>
+					*/}
 				</Grid>
 
 				<br/>

@@ -10,7 +10,7 @@ const Banner = () => {
 					Nicolas Fan
 				</h1>
 				<p className="banner-subtitle">
-					Building websites and webapps for fun.
+					A pragmatic developer who brings your ideas to life. 
 				</p>
 				<div className="banner-contact-links">
 					{ /* LinkedIn */ }
