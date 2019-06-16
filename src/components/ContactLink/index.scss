@@ -1,13 +1,14 @@
 .contact-link {
+	width: 40px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0px;
+	margin: 0px 20px 0px 0px;
 	padding: 10px;
 	border-radius: 10px;
 	color: black;
 	text-decoration: none;
-	transition: all 0.3s;
+	transition: all 0.75s;
 	&:hover {
 		cursor: pointer;
 		background-color: rgba(0,0,0,0.1);
@@ -16,4 +17,21 @@
 		font-size: 40px;
 		color: whitesmoke;
 	}
+	.contact-text {
+		overflow-x: hidden;
+		overflow-y: hidden;
+		margin-left: 10px;
+		height: 40px;
+		color: rgba(240,240,240,0);
+		transition: all 1s;
+	}
+}
+
+/* Tablet view */
+@media screen and (max-width: 992px) {
+  .contact-link {
+    .contact-text {
+    	margin: 0px;
+    }
+  }
 }

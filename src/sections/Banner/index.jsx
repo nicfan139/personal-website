@@ -10,35 +10,39 @@ const Banner = () => {
 					Nicolas Fan
 				</h1>
 				<p className="banner-subtitle">
-					A pragmatic developer who brings your ideas to life. 
+					A pragmatic web developer who brings your ideas to life. 
 				</p>
 				<div className="banner-contact-links">
 					{ /* LinkedIn */ }
 					<ContactLink
+						id="linkedin"
 						href="https://www.linkedin.com/in/nicolasfan"
-						title="Connect on LinkedIn!"
 						iconClass="fab fa-linkedin"
+						text="Connect on LinkedIn!"
 					/>
 
 					{ /* GitHub */ }
 					<ContactLink
+						id="github"
 						href="https://www.github.com/nicfan139"
-						title="View GitHub profile!"
 						iconClass="fab fa-github"
+						text="View GitHub profile!"
 					/>
 
 					{ /* GitLab */ }
 					<ContactLink
+						id="gitlab"
 						href="https://www.gitlab.com/nicfan139"
-						title="View GitLab profile!"
 						iconClass="devicon-gitlab-plain colored"
+						text="View GitLab profile!"
 					/>
 
 					{ /* CodePen */ }
 					<ContactLink
+						id="codepen"
 						href="https://codepen.io/nicfan139"
-						title="View code snippets on CodePen!"
 						iconClass="fab fa-codepen"
+						text="View code snippets on CodePen!"
 					/>
 				</div>
 			</div>
