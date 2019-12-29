@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.scss';
-import SidebarTab from '../SidebarTab';
+import profilePic from '../../assets/images/profile_pic.jpg';
+import SidebarTab from './SidebarTab';
 
 class Sidebar extends React.Component {
 	componentDidMount() {
@@ -24,19 +25,19 @@ class Sidebar extends React.Component {
 		if (projectsPosition < 100) { this.setNewActiveTab("projects") }
 	}
 
-	onTabClick = (section) => {
+	onTabClick = section => {
 		this.viewSection(section);
 		this.setNewActiveTab(section);
 	}
 
-	viewSection = (section) => {
+	viewSection = section => {
 		document.getElementById(section).scrollIntoView({
 			behavior: "smooth",
 			block: "start"
 		});
 	}
 
-	setNewActiveTab = (selectedTab) => {
+	setNewActiveTab = selectedTab => {
 		this.removeCurrentActiveTab();
 		const newActiveTab = document.getElementById(`tab-${selectedTab}`);
 		newActiveTab.classList.add("tab-active");
@@ -44,7 +45,7 @@ class Sidebar extends React.Component {
 
 	removeCurrentActiveTab = () => {
 		const tabs = document.querySelectorAll(".sidebar-tab");
-		tabs.forEach((tab) => { tab.classList.remove("tab-active") });
+		tabs.forEach(tab => { tab.classList.remove("tab-active") });
 	}
 
 	render() {
@@ -53,9 +54,16 @@ class Sidebar extends React.Component {
 			{ section: "about", label: "About me" },
 			{ section: "skills", label: "Skills" },
 			{ section: "projects", label: "Projects" },
-		]
+		];
 		return (
 			<div className="sidebar">
+				{/* Profile picture */}
+				<div
+					className="sidebar-pic"
+					style={{ background: `url(${profilePic})` }}
+				/>
+
+				{/* Tabs */}
 				<div className="sidebar-tabs-container">
 					{ sections.map(obj => {
 							return (
@@ -68,6 +76,53 @@ class Sidebar extends React.Component {
 							)
 						})
 					}
+				</div>
+
+				<div className="sidebar-footer">
+					{/* Contact links */}
+					<div className="links">
+						<a
+							title="LinkedIn"
+							href="https://www.linkedin.com/in/nicolasfan"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="link"
+						>
+							<i className="fab fa-linkedin" />
+						</a>
+						<a
+							title="GitHub"
+							href="https://www.github.com/nicfan139"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="link"
+						>
+							<i className="fab fa-github" />
+						</a>
+						<a
+							title="GitLab"
+							href="https://www.gitlab.com/nicfan139"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="link"
+						>
+							<i className="devicon-gitlab-plain" />
+						</a>
+						<a
+							title="CodePen"
+							href="https://codepen.io/nicfan139"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="link"
+						>
+							<i className="fab fa-codepen" />
+						</a>
+					</div>
+
+					{/* Copyright text */}
+					<div className="copyright">
+						&copy; Nicolas Fan { new Date().getFullYear() }
+					</div>
 				</div>
 			</div>
 		)

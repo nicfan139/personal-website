@@ -2,7 +2,7 @@
 	z-index: 0;
 	height: 100%;
 	width: 100%;
-	padding: 150px 0px;
+	padding: 100px 0px;
 	color: whitesmoke;
 	.banner-content {
 		display: flex;
@@ -21,8 +21,7 @@
 		}
 		.banner-contact-links {
 			display: flex;
-			justify-content: space-between;
-			margin-left: -10px;
+			flex-direction: column;
 		}
 	}
 }
@@ -36,6 +35,7 @@
 			align-items: center;
 			text-align: center;
 			.banner-contact-links {
+				flex-direction: row;
 				margin-left: 0px;
 			}
 		}

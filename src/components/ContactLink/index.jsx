@@ -2,8 +2,8 @@ import React from 'react';
 import './index.scss';
 import propTypes from 'prop-types';
 
-const ContactLink = (props) => {
-	const toggleText = (toggle) => {
+const ContactLink = props => {
+	const toggleText = toggle => {
 		const link = document.getElementById(props.id);
 		const text = document.getElementById(`contact-text-${props.id}`);
 		link.style.width = toggle === "expand" ? "200px" : "40px";
@@ -20,7 +20,7 @@ const ContactLink = (props) => {
 			onMouseOver={() => toggleText("expand")}
 			onMouseLeave={() => toggleText("hide")}
 		>
-			<i className={`${props.iconClass} contact-icon`}></i>
+			<i className={`${props.iconClass} contact-icon`} />
 			<label id={`contact-text-${props.id}`} className="contact-text">
 				{props.text}
 			</label>
