@@ -57,12 +57,10 @@ const Skills = () => (
 					langImgAlt="Gatsby.js logo"
 					langName="Gatsby.js"
 				/>
-				{/*
 				<LangIcon
 					langIcon="devicon-typescript-plain colored"
 					langName="TypeScript"
 				/>
-				*/}
 			</Grid>
 
 			<br/>
