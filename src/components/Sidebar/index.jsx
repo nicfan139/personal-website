@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.scss';
-import profilePic from '../../assets/images/profile_pic.jpg';
+import { profilePic } from 'images';
 import SidebarTab from './SidebarTab';
 
 class Sidebar extends React.Component {

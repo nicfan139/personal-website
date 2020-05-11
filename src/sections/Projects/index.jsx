@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.scss';
 import { projectList } from './projectList';
-import ProjectDetail from '../../components/ProjectDetail';
+import { ProjectDetail } from 'components';
 
 const Projects = () => (
 	<div className="projects">

@@ -1,8 +1,10 @@
-import projectYapWebsiteImg from '../../assets/images/project_yap_website.png';
-import projectCubahausImg from '../../assets/images/project_cubahaus.png';
-import projectMissionMealsImg from '../../assets/images/project_mission_meals.png';
-import projectGamiflexImg from '../../assets/images/project_gamiflex.png';
-import projectMontresorImg from '../../assets/images/project_montresor.png';
+import {
+	projectYapWebsiteImg,
+	projectCubahausImg,
+	projectMissionMealsImg,
+	projectGamiflexImg,
+	projectMontresorImg,
+} from 'images';
 
 export const projectList = [
 	{

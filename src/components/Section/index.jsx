@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.scss';
-import mtlSkyline from '../../assets/images/mtl_skyline.jpeg';
+import { mtlSkyline } from 'images';
 
 const Section = ({ children, name, background, banner }) => (
 	<div

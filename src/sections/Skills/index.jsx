@@ -1,9 +1,8 @@
 import React from 'react';
 import './index.scss';
 import Grid from '@material-ui/core/Grid';
-import LangIcon from '../../components/LangIcon';
-import gatsbyLogo from '../../assets/logos/gatsby.svg';
-import reduxLogo from '../../assets/logos/redux.svg';
+import { LangIcon } from 'components';
+import { skillsList } from './skillsList';
 
 const Skills = () => (
 	<div className="skills">
@@ -17,50 +16,26 @@ const Skills = () => (
 				Front-end
 			</h3>
 			<Grid container spacing={24}>
-				<LangIcon
-					langIcon="devicon-html5-plain colored"
-					langName="HTML"
-				/>
-				<LangIcon
-					langIcon="devicon-css3-plain colored"
-					langName="CSS"
-				/>
-				<LangIcon
-					langIcon="devicon-sass-original colored"
-					langName="SASS/SCSS"
-				/>
-				<LangIcon
-					langIcon="devicon-bootstrap-plain colored"
-					langName="Bootstrap"
-				/>
-				<LangIcon
-					langIcon="devicon-javascript-plain colored"
-					langName="JavaScript"
-				/>
-				{/*
-				<LangIcon
-					langIcon="devicon-jquery-plain colored"
-					langName="jQuery"
-				/>
-				*/}
-				<LangIcon
-					langIcon="devicon-react-original colored"
-					langName="React.js"
-				/>
-				<LangIcon
-					langImg={reduxLogo}
-					langImgAlt="Redux logo"
-					langName="Redux"
-				/>
-				<LangIcon
-					langImg={gatsbyLogo}
-					langImgAlt="Gatsby.js logo"
-					langName="Gatsby.js"
-				/>
-				<LangIcon
-					langIcon="devicon-typescript-plain colored"
-					langName="TypeScript"
-				/>
+				{ skillsList.map(({ langName, langIcon, langImg, langImgAlt }, index) => {
+						if (langImg) {
+							return (
+								<LangIcon
+									key={`skill-${langName}`}
+									langName={langName}
+									langImg={langImg}
+									langImgAlt={langImgAlt}
+								/>
+							)
+						}
+						return (
+							<LangIcon
+								key={`skill-${langName}`}
+								langName={langName}
+								langIcon={langIcon}
+							/>
+						)
+				}
+				)}
 			</Grid>
 
 			<br/>

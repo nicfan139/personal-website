@@ -3,8 +3,7 @@ import React from 'react';
 import './index.scss';
 import '../scss/custom.scss';
 // Layout components
-import Sidebar from '../components/Sidebar';
-import Section from '../components/Section';
+import { Sidebar, Section } from 'components';
 // Sections
 import Banner from '../sections/Banner';
 import About from '../sections/About';

@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.scss';
-import ContactLink from '../../components/ContactLink';
+import { ContactLink } from 'components';
 
 const Banner = () => (
 	<div className="banner">
