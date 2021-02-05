@@ -9,7 +9,7 @@ const About = () => (
     <div className="about-details">
       <div className="about-text">
         <p>
-        	Hi there! I'm a Full-Stack Developer who builds highly interactive websites and webapps for a living (based around the <a href="https://jamstack.org" target="_blank" rel="noopener noreferrer">JAMstack</a>). Though, I do have a preference for all things Front-End - especially with React.js.
+        	Hi there! I'm a Full-Stack Developer who builds highly interactive websites and webapps for a living (based around the <a href="https://jamstack.org" target="_blank" rel="noopener noreferrer">JAMstack</a>). Though, I do have a preference for all things Front-End - especially with React and TypeScript.
           With a former background in business, I made the switch to programming and I've had a blast so far with this new career path!
         </p>
         <p>
