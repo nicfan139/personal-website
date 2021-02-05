@@ -16,7 +16,7 @@ const About = () => (
         	Originally from Hong Kong, I've had the opportunity to live various places: including Malaysia, England and Australia! When I'm not coding you'll probably find me playing soccer, indulging in video games, or aimlessly surfing through the internet.
         </p>
         <p>
-        	Currently seeking new opportunities and ventures to enhance my skills as a web developer!
+        	I'm always open to new opportunities and ventures to enhance my skills as a web developer!
         </p>
       </div>
     </div>

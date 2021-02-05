@@ -28,14 +28,6 @@ const Banner = () => (
 					text="View GitHub profile!"
 				/>
 
-				{/* GitLab */}
-				<ContactLink
-					id="gitlab"
-					href="https://www.gitlab.com/nicfan139"
-					iconClass="devicon-gitlab-plain colored"
-					text="View GitLab profile!"
-				/>
-
 				{/* CodePen */}
 				<ContactLink
 					id="codepen"

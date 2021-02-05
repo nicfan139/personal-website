@@ -1,12 +1,26 @@
 import {
+	projectItineraryPlannerImg,
+	projectSquadtraxImg,
 	projectYapWebsiteImg,
 	projectCubahausImg,
-	projectMissionMealsImg,
 	projectGamiflexImg,
-	projectMontresorImg,
 } from 'images';
 
 export const projectList = [
+	{
+		name: "Itinerary Planner",
+		desc: "A super quick and easy-to-use itinerary generator with save and export PDF features, built with Svelte.",
+		siteUrl: "https://svelte-itinerary-planner.vercel.app/",
+		repoUrl: "https://github.com/nicfan139/svelte-itinerary-planner",
+		backgroundImgUrl: projectItineraryPlannerImg
+	},
+	{
+		name: "Squadtrax",
+		desc: "Dashboard UI concept built with Next.js",
+		siteUrl: "https://squadtrax.vercel.app/",
+		repoUrl: "https://github.com/nicfan139/squadtrax",
+		backgroundImgUrl: projectSquadtraxImg
+	},
 	{
 		name: "YAP.cx - Website",
 		desc: "YAP is a Bitcoin and Foreign currency exchange service based in the Old Port of Montreal.<br/><br/>Designed and built the website from scratch using **React.js + Gatsby.js.**",
@@ -22,24 +36,10 @@ export const projectList = [
 		backgroundImgUrl: projectCubahausImg
 	},
 	{
-		name: "Mission Meals",
-		desc: "Mission meals is a personalized food distribution system made to minimize waste and optimize production.<br/><br/>Mission Hacks Hackathon, Montreal, 2018 - Top 5 Finalist",
-		siteUrl: "",
-		repoUrl: "https://github.com/nicfan139/mission-meals",
-		backgroundImgUrl: projectMissionMealsImg
-	},
-	{
 		name: "Gamiflex",
 		desc: "Final project of **Le Wagon Coding Bootcamp** (*batch #125 - Montreal*).<br/><br/>Our team built a webapp that uses a gamer's preferences to suggest their next video game!<br/><br/>This project was bootstrapped using Ruby on Rails in collaboration with Theo Avoyne (@theoavoyne) and Olivier Riccini (@OlivierRiccini).",
 		siteUrl: "http://www.gamiflex.com",
 		repoUrl: "https://github.com/nicfan139/gamiflex",
 		backgroundImgUrl: projectGamiflexImg
 	},
-	{
-		name: "Montresor",
-		desc: "5-day team project for 'AirBnB Week' at **Le Wagon Coding Bootcamp** (*batch #125 - Montreal*).<br/><br/>We built a marketplace for second-hand items, like Kijiji and Craigslist, but tailored to students.<br/><br/>This project was bootstrapped using Ruby on Rails in collaboration with Theo Avoyne (@theoavoyne) and Olivier Riccini (@OlivierRiccini).",
-		siteUrl: "http://montresor-72.herokuapp.com",
-		repoUrl: "https://github.com/nicfan139/montresor",
-		backgroundImgUrl: projectMontresorImg
-	}
 ]

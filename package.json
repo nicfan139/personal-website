@@ -1,8 +1,7 @@
 {
   "name": "personal-site",
   "author": {
-    "name": "Nicolas Fan",
-    "email": "nic@yap.cx"
+    "name": "Nicolas Fan"
   },
   "version": "0.2.0",
   "private": true,

@@ -100,15 +100,6 @@ class Sidebar extends React.Component {
 							<i className="fab fa-github" />
 						</a>
 						<a
-							title="GitLab"
-							href="https://www.gitlab.com/nicfan139"
-							target="_blank"
-							rel="noopener noreferrer"
-							className="link"
-						>
-							<i className="devicon-gitlab-plain" />
-						</a>
-						<a
 							title="CodePen"
 							href="https://codepen.io/nicfan139"
 							target="_blank"

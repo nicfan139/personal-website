@@ -1,7 +1,9 @@
 import {
-	reduxLogo,
+  reduxLogo,
+  mobxLogo,
 	gatsbyLogo,
-	nextjsLogo
+  nextjsLogo,
+  svelteLogo,
 } from 'logos';
 
 export const skillsList = [
@@ -35,6 +37,11 @@ export const skillsList = [
     langImgAlt: 'Redux logo',
   },
   {
+    langName: 'Mobx',
+    langImg: mobxLogo,
+    langImgAlt: 'Mobx logo',
+  },
+  {
     langName: 'Gatsby.js',
     langImg: gatsbyLogo,
     langImgAlt: 'Gatsby logo',
@@ -43,5 +50,10 @@ export const skillsList = [
     langName: 'Next.js',
     langImg: nextjsLogo,
     langImgAlt: 'Next.js logo',
+  },
+  {
+    langName: 'Svelte',
+    langImg: svelteLogo,
+    langImgAlt: 'Svelte logo',
   },
 ]
